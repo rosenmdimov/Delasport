@@ -30,7 +30,7 @@ The default browser is set to Chrome
 
 The Default base URL is https://luckybandit.club.test-delasport.com
 * Use[ -DbaseURL=https://luckybandit.club.test-delasport.com ] to run tests against test environment
--To run tests against Test env on Firefox browser, open the Edit Configuration window and add the following parameters in VM options: -DbrowserName=firefox -DbaseURL=https://test.xenioo.com
+-To run tests against Test env on Firefox browser, open the Edit Configuration window and add the following parameters in VM options: -DbrowserName=firefox -DbaseURL=https://luckybandit.club.test-delasport.com
 
 ### Maven Run
 
