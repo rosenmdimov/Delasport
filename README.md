@@ -1,5 +1,5 @@
-# XENIOO TEST AUTOMATION FRAMEWORK
-* XeniooTAF
+# Delasport TEST AUTOMATION FRAMEWORK
+* delasportTAF
 
 ### Stack of used technologies :
 
@@ -37,3 +37,5 @@ The Default base URL is https://luckybandit.club.test-delasport.com
 * mvn test - runs the framework with the default options
 * mvn test -DbaseURL=https://luckybandit.club.test-delasport.com - runs the framework against Test env
 * mvn test -DbrowserName=firefox runs the framework on Firefox
+# Delasport
+
