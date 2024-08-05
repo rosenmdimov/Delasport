@@ -15,7 +15,7 @@ import java.time.LocalTime;
 public class WebApp {
     WebDriver driver;
     LoginPage loginPage;
-    MainPage myBotsPage;
+    MainPage mainPage;
     RestQueries restQueries;
     private static final Logger LOGGER = LoggerFactory.getLogger(WebApp.class);
 
@@ -34,11 +34,11 @@ public class WebApp {
         }
         return loginPage;
     }
-    public MainPage myBotsPage() {
-        if (myBotsPage == null) {
-            myBotsPage = new MainPage(driver);
+    public MainPage mainPage() {
+        if (mainPage == null) {
+            mainPage = new MainPage(driver);
         }
-        return myBotsPage;
+        return mainPage;
     }
 
     public RestQueries restQueries() {

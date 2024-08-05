@@ -15,9 +15,7 @@ class DelasportTest extends BaseTest {
     public void LoginWithCredentials(){
         Set<Cookie> sessionCookies = webApp.loginPage().getCookies();
         String getMemberBalance = webApp.restQueries().makePostRequest(sessionCookies);
-        webApp.myBotsPage().closeModalsIfAny();
-
-        webApp.myBotsPage().verifyBalance(getMemberBalance);
-
+        webApp.mainPage().closeModalsIfAny();
+        webApp.mainPage().verifyBalance(getMemberBalance);
     }
 }
